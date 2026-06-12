@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rengginang Mbak Tutik – Camilan Tradisional Asli</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════ -->
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNavbar">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#beranda">
+        <span class="brand-icon"><i class="fa-solid fa-wheat-awn"></i></span>
+        <span class="brand-text">Rengginang <em>Mbak Tutik</em></span>
+      </a>
+
+      <!-- Hamburger -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-bar"></span>
+        <span class="toggler-bar"></span>
+        <span class="toggler-bar"></span>
+      </button>
+
+      <!-- Menu Links -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#beranda"><i class="fa-solid fa-house-chimney me-1"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#profil"><i class="fa-solid fa-store me-1"></i>Profil Usaha</a></li>
+          <li class="nav-item"><a class="nav-link" href="#katalog"><i class="fa-solid fa-basket-shopping me-1"></i>Katalog Produk</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak"><i class="fa-solid fa-envelope me-1"></i>Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════
+       HERO — #beranda
+  ═══════════════════════════════════ -->
+  <section id="beranda" class="hero-section">
+    <!-- Decorative grain overlay -->
+    <div class="hero-grain"></div>
+    <!-- Floating crumbs decoration -->
+    <div class="crumb crumb-1"></div>
+    <div class="crumb crumb-2"></div>
+    <div class="crumb crumb-3"></div>
+    <div class="crumb crumb-4"></div>
+
+    <div class="container hero-content">
+      <div class="hero-badge"><i class="fa-solid fa-award me-2"></i>Resep Tradisional Warisan Nenek</div>
+      <h1 class="hero-headline">
+        Renyahnya Rengginang<br>
+        <em>Tradisional,</em><br>
+        <span class="hero-sub">Langsung dari Dapur Mbak Tutik</span>
+      </h1>
+      <p class="hero-desc">
+        Dibuat dengan beras ketan pilihan, digoreng dengan minyak bersih, tanpa pengawet — cita rasa rumahan yang tak ternilai.
+      </p>
+      <a href="#katalog" class="btn-hero">
+        <i class="fa-solid fa-basket-shopping me-2"></i>Lihat Produk Kami
+        <span class="btn-hero-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       PROFIL USAHA — #profil
+  ═══════════════════════════════════ -->
+  <section id="profil" class="profil-section">
+    <div class="section-label">Profil Usaha</div>
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <!-- Photo column -->
+        <div class="col-lg-5" data-animate="fade-left">
+          <div class="profil-photo-wrap">
+            <div class="photo-frame">
+              <div class="photo-placeholder">
+                <i class="fa-solid fa-bowl-food"></i>
+                <span>Dapur Mbak Tutik</span>
+              </div>
+            </div>
+            <!-- Decorative badge -->
+            <div class="photo-badge">
+              <div class="badge-inner">
+                <span class="badge-year">Sejak</span>
+                <span class="badge-num">2010</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="col-lg-7" data-animate="fade-right">
+          <div class="profil-content">
+            <h2 class="section-title">Kisah di Balik<br><em>Setiap Gigitan</em></h2>
+            <p class="profil-lead">
+              Berawal dari dapur kecil di kampung, Mbak Tutik mulai membuat rengginang dengan tangan dan hati — warisan resep sang nenek yang tak pernah ia ubah sejak hari pertama.
+            </p>
+
+            <div class="profil-grid">
+              <div class="profil-card">
+                <div class="profil-card-icon"><i class="fa-solid fa-eye"></i></div>
+                <h5>Visi</h5>
+                <p>Menjadi produsen rengginang tradisional terpercaya yang membawa cita rasa rumahan ke seluruh nusantara.</p>
+              </div>
+              <div class="profil-card">
+                <div class="profil-card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <h5>Misi</h5>
+                <p>Mempertahankan resep original, menggunakan bahan alami pilihan, dan melayani setiap pelanggan dengan sepenuh hati.</p>
+              </div>
+              <div class="profil-card">
+                <div class="profil-card-icon"><i class="fa-solid fa-handshake"></i></div>
+                <h5>Komitmen</h5>
+                <p>Tanpa MSG berlebih, tanpa pengawet buatan — hanya kejujuran rasa yang Mbak Tutik jaga setiap harinya.</p>
+              </div>
+            </div>
+
+            <div class="profil-stats">
+              <div class="stat-item">
+                <span class="stat-num">14+</span>
+                <span class="stat-label">Tahun Pengalaman</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">3</span>
+                <span class="stat-label">Varian Rasa</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">500+</span>
+                <span class="stat-label">Pelanggan Setia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       KATALOG PRODUK — #katalog
+  ═══════════════════════════════════ -->
+  <section id="katalog" class="katalog-section">
+    <div class="section-label">Produk Kami</div>
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Katalog <em>Rengginang</em></h2>
+        <p class="section-desc">Tiga varian rasa, satu ketulusan — pilih favoritmu dan rasakan kelezatan yang tak tergantikan.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Card 1: Original -->
+        <div class="col-md-6 col-lg-4" data-animate="fade-up">
+          <div class="product-card">
+            <div class="product-img-wrap">
+               <img src="assets/original.jpeg" alt="Rengginang Original" class="product-img">
+              </div>
+              <div class="product-tag tag-bestseller">Best Seller</div>
+            <div class="product-body">
+              <div class="product-flavor"><i class="fa-solid fa-circle-dot me-1"></i>Gurih Bawang</div>
+              <h4 class="product-name">Rengginang Original</h4>
+              <p class="product-desc">
+                Rengginang klasik dengan bumbu bawang yang harum dan gurih. Tekstur renyah sempurna, cocok sebagai teman makan atau camilan kapan saja.
+              </p>
+              <div class="product-footer">
+                <span class="product-price">Rp 15.000<small>/bungkus</small></span>
+                <button class="btn-pesan" data-product="Rengginang Original (Gurih Bawang)" data-price="15000" onclick="scrollToOrder(this)">
+                  <i class="fa-brands fa-whatsapp me-1"></i>Pesan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Terasi -->
+        <div class="col-md-6 col-lg-4" data-animate="fade-up" style="animation-delay:.15s">
+          <div class="product-card product-card-featured">
+            <div class="product-img-wrap">
+               <img src="assets/terasi.jpeg" alt="Rengginang Terasi" class="product-img">
+              </div>
+              <div class="product-tag tag-new">Favorit</div>
+            <div class="product-body">
+              <div class="product-flavor"><i class="fa-solid fa-circle-dot me-1"></i>Wangi Khas</div>
+              <h4 class="product-name">Rengginang Terasi</h4>
+              <p class="product-desc">
+                Perpaduan unik terasi pilihan yang menghadirkan aroma khas dan cita rasa gurih-pedas ringan. Cocok untuk pencinta rasa tradisional yang kaya.
+              </p>
+              <div class="product-footer">
+                <span class="product-price">Rp 17.000<small>/bungkus</small></span>
+                <button class="btn-pesan" data-product="Rengginang Terasi (Wangi Khas)" data-price="17000" onclick="scrollToOrder(this)">
+                  <i class="fa-brands fa-whatsapp me-1"></i>Pesan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Manis -->
+        <div class="col-md-6 col-lg-4" data-animate="fade-up" style="animation-delay:.3s">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="assets/manis.jpeg" alt="Rengginang Manis" class="product-img">
+              </div>
+              <div class="product-tag tag-sweet">Manis</div>
+            <div class="product-body">
+              <div class="product-flavor"><i class="fa-solid fa-circle-dot me-1"></i>Gula Merah</div>
+              <h4 class="product-name">Rengginang Manis</h4>
+              <p class="product-desc">
+                Dibuat dengan gula merah jawa asli yang memberikan rasa manis legit alami. Renyah di luar, kaya rasa di dalam — pilihan sempurna untuk yang suka manis.
+              </p>
+              <div class="product-footer">
+                <span class="product-price">Rp 16.000<small>/bungkus</small></span>
+                <button class="btn-pesan" data-product="Rengginang Manis (Gula Merah)" data-price="16000" onclick="scrollToOrder(this)">
+                  <i class="fa-brands fa-whatsapp me-1"></i>Pesan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.row -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       KONTAK & PEMESANAN — #kontak
+  ═══════════════════════════════════ -->
+  <section id="kontak" class="kontak-section">
+    <div class="section-label">Kontak & Pesan</div>
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Hubungi <em>Kami</em></h2>
+        <p class="section-desc">Pesan langsung via WhatsApp atau kunjungi dapur kami. Kami siap melayani dengan sepenuh hati!</p>
+      </div>
+
+      <div class="row g-5">
+
+        <!-- Maps + Info column -->
+        <div class="col-lg-5" data-animate="fade-left">
+          <div class="kontak-info-wrap">
+            <!-- Map placeholder -->
+            <div class="map-wrap mb-4">
+              <iframe
+                src="https://www.google.com/maps?q=0.9039826,104.529031&hl=id&z=17&output=embed"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                title="Lokasi Mbak Tutik">
+              </iframe>
+            </div>
+
+            <!-- Info cards -->
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="info-text">
+                  <strong>Alamat</strong>
+                  <span>Jl. Kartini Kp. Sido Makmur Km. 13<br>Tanjungpinang, Kepulauan Riau</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                <div class="info-text">
+                  <strong>Jam Operasional</strong>
+                  <span>Senin – Sabtu: 08.00 – 17.00 WIB<br>Minggu: 09.00 – 14.00 WIB</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="info-text">
+                  <strong>WhatsApp / Telp</strong>
+                  <span>+62 838-0126-5983</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Form column -->
+        <div class="col-lg-7" data-animate="fade-right">
+          <div class="order-form-wrap" id="orderFormSection">
+            <div class="order-form-header">
+              <i class="fa-solid fa-clipboard-list me-2"></i>
+              Form Pemesanan
+            </div>
+
+            <div class="order-form-body">
+              <div class="mb-4">
+                <label class="form-label-custom" for="namaPemesan">Nama Pemesan <span class="req">*</span></label>
+                <input type="text" id="namaPemesan" class="input-custom" placeholder="Masukkan nama lengkap Anda" />
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label-custom" for="produkPilihan">Pilih Produk <span class="req">*</span></label>
+                <div class="select-wrap">
+                  <select id="produkPilihan" class="input-custom" onchange="hitungTotal()">
+                    <option value="" data-price="0">-- Pilih Rengginang --</option>
+                    <option value="Rengginang Original (Gurih Bawang)" data-price="15000">Rengginang Original (Gurih Bawang) – Rp 15.000</option>
+                    <option value="Rengginang Terasi (Wangi Khas)"     data-price="17000">Rengginang Terasi (Wangi Khas) – Rp 17.000</option>
+                    <option value="Rengginang Manis (Gula Merah)"      data-price="16000">Rengginang Manis (Gula Merah) – Rp 16.000</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down select-arrow"></i>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label-custom" for="jumlahPesan">Jumlah Bungkus <span class="req">*</span></label>
+                <div class="qty-wrap">
+                  <button type="button" class="qty-btn" onclick="changeQty(-1)"><i class="fa-solid fa-minus"></i></button>
+                  <input type="number" id="jumlahPesan" class="input-custom input-qty" value="1" min="1" max="100" oninput="hitungTotal()" readonly />
+                  <button type="button" class="qty-btn" onclick="changeQty(1)"><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label-custom">Total Harga</label>
+                <div class="total-display" id="totalHarga">
+                  <i class="fa-solid fa-tag me-2"></i>
+                  <span id="totalText">Rp 0</span>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label-custom" for="catatanPesan">Catatan Tambahan</label>
+                <textarea id="catatanPesan" class="input-custom input-textarea" rows="3" placeholder="Misal: alamat pengiriman, atau permintaan khusus..."></textarea>
+              </div>
+
+              <button class="btn-wa-order" onclick="kirimPesanan()">
+                <i class="fa-brands fa-whatsapp me-2"></i>
+                Kirim Pesanan via WhatsApp
+                <span class="btn-wa-arrow"><i class="fa-solid fa-paper-plane"></i></span>
+              </button>
+
+              <p class="form-note">
+                <i class="fa-solid fa-circle-info me-1"></i>
+                Anda akan diarahkan ke WhatsApp dengan pesan yang sudah terisi otomatis.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.row -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <i class="fa-solid fa-wheat-awn me-2"></i>
+          Rengginang <em>Mbak Tutik</em>
+        </div>
+        <p class="footer-tagline">Gurih, Renyah, dan Penuh Cinta dari Dapur Kami</p>
+        <div class="footer-links">
+          <a href="#beranda">Home</a>
+          <a href="#profil">Profil</a>
+          <a href="#katalog">Katalog</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <div class="footer-copy">
+          &copy; 2025 UMKM Rengginang Mbak Tutik. Semua Hak Dilindungi.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div id="toastMsg" class="toast-msg" role="alert" aria-live="polite"></div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
